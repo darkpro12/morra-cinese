@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  div.SceltaUtente {
+    border: 1px solid black;
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+  }
+  div.Button {
+    border: 1px solid black;
+    width: 300px;
+    padding:  25px;
+    background-color: lightgrey;
+  }
+  </style>
+</head>
+  <body>
+    <h1 id = "titolo"> Benvenuto </h1>
+    <h2 id = "informazioni"> Fai la tua scelta quindi clicca il pulsante Conferma </h2>
+    <div class="SceltaUtente" onclick="clickCarta()"> -CARTA </div> <br>
+    <div class="SceltaUtente" onclick="clickForbici()"> -FORBICI </div> <br>
+    <div class="SceltaUtente" onclick="clickSasso()"> -SASSO </div> <br>
+    <div class="Button" onclick="verdetto()"> Conferma </div>
+    <script src = "engine.js"/> </script>
+  </body>
+</html>
